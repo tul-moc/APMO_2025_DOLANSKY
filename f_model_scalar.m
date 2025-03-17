@@ -1,4 +1,5 @@
-function f_model_temperature(gd,sf,ns)
+% pridani tepla na pravou stranu
+function f_model_scalar(gd,sf,ns)
 model = createpde;
 g=decsg(gd,sf,ns);
 geometryFromEdges(model,g);
